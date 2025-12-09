@@ -1,0 +1,112 @@
+/* GENERAL PAGE STYLE */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* PAGE HEADINGS */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* HOME PAGE CONTENT (FLOAT EXAMPLE) */
+.hero {
+    width: 80%;
+    margin: auto;
+}
+
+.hero img {
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ABOUT PAGE (FLEXBOX EXAMPLE) */
+.about-container {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.about-container img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.about-text {
+    font-size: 18px;
+}
+
+/* SKILLS PAGE */
+.skills-section {
+    width: 80%;
+    margin: auto;
+}
+
+.skill-box {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #333;
+}
+
+/* CONTACT FORM */
+form {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 15px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+}
